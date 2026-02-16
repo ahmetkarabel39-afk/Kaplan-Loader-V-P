@@ -1,0 +1,14 @@
+services:
+  - type: web
+    name: key-panel
+    env: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: JWT_SECRET
+        value: ${JWT_SECRET}
+      - key: PORT
+        value: 3000

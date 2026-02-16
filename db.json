@@ -1,0 +1,461 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "username": "quartz",
+      "role": "founder",
+      "canRevoke": true,
+      "passwordHash": "$2a$10$Q4.k.pb8G8twsUw9Xc5lxuVL1.A5RDgAp/RTTf2mM8tEp7EswMGNC"
+    },
+    {
+      "id": "2",
+      "username": "lowen",
+      "role": "founder",
+      "canRevoke": true,
+      "passwordHash": "$2a$10$0rvAatKMSfk8SH8V42PKMOAy0FIq1Y7fupmfiI/cHKs2qhnAbTQ8e",
+      "warnings": 0,
+      "displayName": "lowen (Kurucu)"
+    },
+    {
+      "id": "3",
+      "username": "mor",
+      "role": "founder",
+      "canRevoke": true,
+      "passwordHash": "$2a$10$GES2D3BcoxVkALL5VFCsXegQTHvQixp6z0sK6zLnSKVZDhYRT7PmC"
+    },
+    {
+      "id": "4",
+      "username": "cardcins",
+      "role": "founder",
+      "canRevoke": true,
+      "passwordHash": "$2a$10$3JY.4dgY/H4ajmQlp7XhMOWoVHs5GfdXckjSgp3MSatyl0UvM3bg."
+    },
+    {
+      "id": "5",
+      "username": "testo",
+      "role": "founder",
+      "canRevoke": true,
+      "passwordHash": "$2a$10$m7hZGG6t65YYgNxVG0/V8u7pkZCenA4vzz4gmigP0DeeAFBe.ral."
+    },
+    {
+      "id": "39452f39-6b08-4db1-90fb-906307e9d42d",
+      "username": "test",
+      "passwordHash": "$2a$10$IGOAF3o8e.wpxuDxwfOuEOTdp851ic0ghbdaZUf2ITrBQu/ZDZVea",
+      "role": "manager",
+      "displayName": "test (Yönetici)",
+      "maxDays": 30,
+      "maxKeys": 30,
+      "canRevoke": false,
+      "warnings": 0
+    },
+    {
+      "id": "38b7f7ea-d0f9-4a54-9147-27e75ae5b3bf",
+      "username": "tesit",
+      "passwordHash": "$2a$10$dnF1/w.QIhSCkZ0Ws7TQ/.TQ3tHVk5NHxEJOl1LzCPSI0Q6ktXN/e",
+      "role": "manager",
+      "displayName": "tesit (Yönetici)",
+      "maxDays": 40,
+      "maxKeys": 40,
+      "canRevoke": false
+    },
+    {
+      "id": "9cbfb3f4-d9f6-4e59-a9c3-bc72e8398f7d",
+      "username": "tes",
+      "passwordHash": "$2a$10$TphmbZCjRfjBmGuOtBr3P.Nd3rI/hfGpvbtvaPWyhT4yiWnn3BaoK",
+      "role": "admin",
+      "displayName": "tes (Admin)",
+      "maxDays": 20,
+      "maxKeys": 30,
+      "accountExpiresAt": 1773852757081,
+      "canRevoke": true
+    },
+    {
+      "id": "7ba23a62-6cb1-4f6e-a13c-d4574bb16912",
+      "username": "Axentra",
+      "passwordHash": "$2a$10$TgMPtd.gzECjhmd/36cn2uw2l9jMOnIiNd8OghtsM9yBGiFe0wI/S",
+      "role": "founder",
+      "displayName": "Axentra (Kurucu)"
+    }
+  ],
+  "keys": [],
+  "config": {
+    "maxDays": 30,
+    "maxKeyCount": 100,
+    "cheatStatus": "UPDATE",
+    "announcement": "YENİ PANEL HEPİMİZE HAYIRLI UĞURLU OLSUNNN"
+  },
+  "logs": [
+    {
+      "id": "10ace979-6f61-40fa-94f8-432c07c6765d",
+      "timestamp": 1771261014293,
+      "username": "Axentra",
+      "action": "LOGIN",
+      "details": "Kullanıcı giriş yaptı"
+    },
+    {
+      "id": "16af406d-b446-4cf9-bd34-253c8ae6c26c",
+      "timestamp": 1771260998468,
+      "username": "quartz",
+      "action": "CREATE_USER",
+      "details": "Yeni kullanıcı oluşturuldu: Axentra (founder)"
+    },
+    {
+      "id": "2ab6f42c-62ce-4e9a-ad46-09265eb91e0f",
+      "timestamp": 1771260984500,
+      "username": "Quartz",
+      "action": "LOGIN",
+      "details": "Kullanıcı giriş yaptı"
+    },
+    {
+      "id": "e829e22a-409b-4608-8286-6eb2a6f529d7",
+      "timestamp": 1771260920117,
+      "username": "tes",
+      "action": "REVOKE_KEY",
+      "details": "Key silindi/iptal edildi"
+    },
+    {
+      "id": "b45f5204-1147-4fb8-afe1-9c4570b3962a",
+      "timestamp": 1771260912028,
+      "username": "tes",
+      "action": "GENERATE_KEY",
+      "details": "1 adet 20 günlük key oluşturuldu (ANDROID)"
+    },
+    {
+      "id": "7b36b9e9-f725-4575-acf8-00be6862b30e",
+      "timestamp": 1771260767442,
+      "username": "tes",
+      "action": "LOGIN",
+      "details": "Kullanıcı giriş yaptı"
+    },
+    {
+      "id": "45af546e-3450-4a31-ac36-d524f6317cb2",
+      "timestamp": 1771260757081,
+      "username": "quartz",
+      "action": "CREATE_USER",
+      "details": "Yeni kullanıcı oluşturuldu: tes (admin)"
+    },
+    {
+      "id": "120f4f2f-d989-4ea9-bbf0-9afcaed01eba",
+      "timestamp": 1771260718071,
+      "username": "quartz",
+      "action": "STATUS_CHANGE",
+      "details": "Hile durumu değiştirildi: UPDATE"
+    },
+    {
+      "id": "2f16fff7-b8d5-4447-b14e-edf8dbbe39a5",
+      "timestamp": 1771260717014,
+      "username": "quartz",
+      "action": "STATUS_CHANGE",
+      "details": "Hile durumu değiştirildi: SAFE"
+    },
+    {
+      "id": "39f89bc6-08fb-4a3d-b46f-8498bb9dff2e",
+      "timestamp": 1771260713870,
+      "username": "quartz",
+      "action": "STATUS_CHANGE",
+      "details": "Hile durumu değiştirildi: RISK"
+    },
+    {
+      "id": "a49e2eef-b99b-4e36-ba4f-1d8e79560a20",
+      "timestamp": 1771260700777,
+      "username": "quartz",
+      "action": "REVOKE_KEY",
+      "details": "Key silindi/iptal edildi"
+    },
+    {
+      "id": "7c71d735-208d-4ec0-bd97-910b2ae080de",
+      "timestamp": 1771260698338,
+      "username": "quartz",
+      "action": "REVOKE_KEY",
+      "details": "Key silindi/iptal edildi"
+    },
+    {
+      "id": "0e6461e7-b80d-4683-b522-e35aedefc402",
+      "timestamp": 1771260695257,
+      "username": "quartz",
+      "action": "REVOKE_KEY",
+      "details": "Key silindi/iptal edildi"
+    },
+    {
+      "id": "9cf347ee-8d85-46a6-a426-f67c4b2d1694",
+      "timestamp": 1771260692241,
+      "username": "quartz",
+      "action": "REVOKE_KEY",
+      "details": "Key silindi/iptal edildi"
+    },
+    {
+      "id": "e3ae3e10-8f0b-4510-8216-6f2e2cd8f720",
+      "timestamp": 1771260671215,
+      "username": "Quartz",
+      "action": "LOGIN",
+      "details": "Kullanıcı giriş yaptı"
+    },
+    {
+      "id": "30caca00-b71c-429d-9a29-50df3cc174b4",
+      "timestamp": 1771227926598,
+      "username": "Quartz",
+      "action": "LOGIN",
+      "details": "Kullanıcı giriş yaptı"
+    },
+    {
+      "id": "b9821c2e-faa3-4e1e-bc6e-2f442868444c",
+      "timestamp": 1771227926494,
+      "username": "Quartz",
+      "action": "LOGIN",
+      "details": "Kullanıcı giriş yaptı"
+    },
+    {
+      "id": "d16e4e53-1aaf-4ca2-b216-1c0d27617353",
+      "timestamp": 1771227567918,
+      "username": "Quartz",
+      "action": "LOGIN",
+      "details": "Kullanıcı giriş yaptı"
+    },
+    {
+      "id": "fb8e47e0-8437-40c4-a0fa-bb9850390d7a",
+      "timestamp": 1771227567785,
+      "username": "Quartz",
+      "action": "LOGIN",
+      "details": "Kullanıcı giriş yaptı"
+    },
+    {
+      "id": "ba1fd6f2-8dae-4352-aa32-eda64bc25ae9",
+      "timestamp": 1771227409318,
+      "username": "lowen",
+      "action": "REVOKE_KEY",
+      "details": "Key silindi/iptal edildi"
+    },
+    {
+      "id": "8c82c858-0536-4435-a06b-1d7cccda7d60",
+      "timestamp": 1771227391032,
+      "username": "lowen",
+      "action": "GENERATE_KEY",
+      "details": "1 adet 1 günlük key oluşturuldu (ANDROID)"
+    },
+    {
+      "id": "c2cee215-a107-46b0-9c9f-71d0dc015999",
+      "timestamp": 1771226390181,
+      "username": "lowen",
+      "action": "CREATE_USER",
+      "details": "Yeni kullanıcı oluşturuldu: tesit (manager)"
+    },
+    {
+      "id": "4d3ec022-45da-4e91-b4f5-1ab86cd4eb08",
+      "timestamp": 1771226019924,
+      "username": "lowen",
+      "action": "LOGIN",
+      "details": "Kullanıcı giriş yaptı"
+    },
+    {
+      "id": "f70b2ae0-bfda-44b4-8155-4e01c6158bcd",
+      "timestamp": 1771226019821,
+      "username": "lowen",
+      "action": "LOGIN",
+      "details": "Kullanıcı giriş yaptı"
+    },
+    {
+      "id": "e929a626-6c92-4f90-8463-1039291637cb",
+      "timestamp": 1771225978605,
+      "username": "Quartz",
+      "action": "LOGIN",
+      "details": "Kullanıcı giriş yaptı"
+    },
+    {
+      "id": "fa65528b-f737-4a93-b120-39533783e5ab",
+      "timestamp": 1771225978499,
+      "username": "Quartz",
+      "action": "LOGIN",
+      "details": "Kullanıcı giriş yaptı"
+    },
+    {
+      "id": "55314a87-67d4-4d2b-b01f-6cf7a5bd497a",
+      "timestamp": 1771225923598,
+      "username": "test",
+      "action": "LOGIN",
+      "details": "Kullanıcı giriş yaptı"
+    },
+    {
+      "id": "b2abed57-170a-416f-be68-60b98bc779b8",
+      "timestamp": 1771225923485,
+      "username": "test",
+      "action": "LOGIN",
+      "details": "Kullanıcı giriş yaptı"
+    },
+    {
+      "id": "a20d9e29-a04d-4cc4-a73f-05f60e3ff4fe",
+      "timestamp": 1771225912458,
+      "username": "quartz",
+      "action": "RESET_USER",
+      "details": "Kullanıcı sıfırlandı/güncellendi: test"
+    },
+    {
+      "id": "a4f6e814-7ee5-4739-a741-a2acd7fe9c49",
+      "timestamp": 1771225874472,
+      "username": "Quartz",
+      "action": "LOGIN",
+      "details": "Kullanıcı giriş yaptı"
+    },
+    {
+      "id": "b45710e0-7dac-4b1a-851d-a3a30cce85bf",
+      "timestamp": 1771225874361,
+      "username": "Quartz",
+      "action": "LOGIN",
+      "details": "Kullanıcı giriş yaptı"
+    },
+    {
+      "id": "b9bc136d-3bf1-43a0-a582-4b473e46b8b8",
+      "timestamp": 1771225850150,
+      "username": "lowen",
+      "action": "LOGIN",
+      "details": "Kullanıcı giriş yaptı"
+    },
+    {
+      "id": "86e13f78-11dd-4bd2-8c2a-2b54a18911a1",
+      "timestamp": 1771225850029,
+      "username": "lowen",
+      "action": "LOGIN",
+      "details": "Kullanıcı giriş yaptı"
+    },
+    {
+      "id": "531d97a5-29bf-4976-9421-9fbf04c6ed55",
+      "timestamp": 1771225828039,
+      "username": "Quartz",
+      "action": "LOGIN",
+      "details": "Kullanıcı giriş yaptı"
+    },
+    {
+      "id": "e5da0b54-4f1e-49b1-8a26-94dc110d1075",
+      "timestamp": 1771225827935,
+      "username": "Quartz",
+      "action": "LOGIN",
+      "details": "Kullanıcı giriş yaptı"
+    },
+    {
+      "id": "09339af6-b4ff-48ea-97b6-0532be92d5b4",
+      "timestamp": 1771225621204,
+      "username": "quartz",
+      "action": "RESET_USER",
+      "details": "Kullanıcı sıfırlandı/güncellendi: lowen"
+    },
+    {
+      "id": "babdd84f-8211-40be-93c6-71618a453df4",
+      "timestamp": 1771225611249,
+      "username": "Quartz",
+      "action": "LOGIN",
+      "details": "Kullanıcı giriş yaptı"
+    },
+    {
+      "id": "30028e8e-be7c-4682-8c4c-c91f5bc87521",
+      "timestamp": 1771225611136,
+      "username": "Quartz",
+      "action": "LOGIN",
+      "details": "Kullanıcı giriş yaptı"
+    },
+    {
+      "id": "eafaa15f-d33b-4cd5-bbf8-d1c03dee5e93",
+      "timestamp": 1771225481497,
+      "username": "lowen",
+      "action": "LOGIN",
+      "details": "Kullanıcı giriş yaptı"
+    },
+    {
+      "id": "abf1e838-2e98-4f36-aadb-1f45e7c406f3",
+      "timestamp": 1771225481393,
+      "username": "lowen",
+      "action": "LOGIN",
+      "details": "Kullanıcı giriş yaptı"
+    },
+    {
+      "id": "612502d0-150c-4db0-a45b-806898a36197",
+      "timestamp": 1771225308955,
+      "username": "Quartz",
+      "action": "LOGIN",
+      "details": "Kullanıcı giriş yaptı"
+    },
+    {
+      "id": "8048aec4-f01a-4625-9296-e15aafc4c242",
+      "timestamp": 1771225308825,
+      "username": "Quartz",
+      "action": "LOGIN",
+      "details": "Kullanıcı giriş yaptı"
+    },
+    {
+      "id": "19e9f33f-7f14-43fc-ac58-52c5d737d3bc",
+      "timestamp": 1771225141143,
+      "username": "lowen",
+      "action": "LOGIN",
+      "details": "Kullanıcı giriş yaptı"
+    },
+    {
+      "id": "b05727ff-b3fd-485b-aea5-36bb83500c61",
+      "timestamp": 1771225141019,
+      "username": "lowen",
+      "action": "LOGIN",
+      "details": "Kullanıcı giriş yaptı"
+    },
+    {
+      "id": "028f2214-9810-418f-a9c8-4be683034f68",
+      "timestamp": 1771225105952,
+      "username": "quartz",
+      "action": "RESET_USER",
+      "details": "Kullanıcı sıfırlandı/güncellendi: lowen"
+    },
+    {
+      "id": "01db89f8-386b-468d-9cd9-11da28973ff1",
+      "timestamp": 1771224818883,
+      "username": "Quartz",
+      "action": "LOGIN",
+      "details": "Kullanıcı giriş yaptı"
+    },
+    {
+      "id": "483869b0-aadf-4854-ac39-0ad59a449b38",
+      "timestamp": 1771224818741,
+      "username": "Quartz",
+      "action": "LOGIN",
+      "details": "Kullanıcı giriş yaptı"
+    },
+    {
+      "id": "d9c9cfa2-b524-4b84-bff2-6d320afaca74",
+      "timestamp": 1771224599722,
+      "username": "Quartz",
+      "action": "LOGIN",
+      "details": "Kullanıcı giriş yaptı"
+    },
+    {
+      "id": "480e28f6-4378-46f5-8120-62fefb9006d4",
+      "timestamp": 1771224599613,
+      "username": "Quartz",
+      "action": "LOGIN",
+      "details": "Kullanıcı giriş yaptı"
+    },
+    {
+      "id": "fccca408-7a8a-4f79-9816-2613d2abef70",
+      "timestamp": 1771224352087,
+      "username": "Quartz",
+      "action": "LOGIN",
+      "details": "Kullanıcı giriş yaptı"
+    },
+    {
+      "id": "8b656d4f-c6f1-4868-ba21-c5a7b4c1c0fe",
+      "timestamp": 1771224351979,
+      "username": "Quartz",
+      "action": "LOGIN",
+      "details": "Kullanıcı giriş yaptı"
+    },
+    {
+      "id": "61fa7a95-43f1-420d-9376-bafde8583423",
+      "timestamp": 1771224278810,
+      "username": "lowen",
+      "action": "LOGIN",
+      "details": "Kullanıcı giriş yaptı"
+    },
+    {
+      "id": "ead12b7a-b46b-42e7-b4de-87ba791af09c",
+      "timestamp": 1771224278701,
+      "username": "lowen",
+      "action": "LOGIN",
+      "details": "Kullanıcı giriş yaptı"
+    }
+  ],
+  "securityAlerts": []
+}

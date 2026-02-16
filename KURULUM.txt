@@ -1,0 +1,74 @@
+🔐 KEY PANEL - KURULUM KILAVUZU
+
+=== SUNUCU BAŞLATMA (BİLGİSAYARDA) ===
+
+1. PC'de bu klasöre gir:
+   c:\Users\Deniz\Desktop\hile\workspace\key-panel
+
+2. Terminal (PowerShell) aç
+
+3. Şu komutu çalıştır:
+   npm start
+
+4. Bu mesajı görüne kadar bekle:
+   "Server listening on http://0.0.0.0:3000"
+
+=== TELEFON/TABLET TAN BAĞLANMA ===
+
+📱 LOKAL AĞ ÜZERİNDEN (Aynı Wi-Fi):
+   
+   1. PC'nin IP adresini öğren (sunucu başlatılırken yazıyor)
+   2. Telefonda tarayıcı aç
+   3. Şu adresi gir: http://192.168.1.22:3000
+   
+   ⚠️ PROBLEM olursa:
+   - Telefonun Wi-Fi'ı kapatıp açıp (toggle)
+   - Tarayıcı cache'i temizle (Settings → Clear Cache)
+   - Incognito/Gizli mod'da dene
+   - Farklı tarayıcı dene (Chrome, Firefox vb.)
+
+🌍 INTERNET ÜZERİNDEN (Router Port Forward gerekli):
+   
+   Router ayarlarında:
+   - Port Forward: 3000 → 192.168.1.22:3000
+   - Ardından: http://<genel-ip>:3000
+   
+   (Genel IP öğrenmek: https://whatismyipaddress.com)
+
+=== GİRİŞ BİLGİLERİ ===
+
+Kurucu Girişi:
+✓ testo / 123
+✓ lowen / 123
+✓ mor / 123
+✓ Quartz / (orijinal)
+✓ CARDCINS / (orijinal)
+
+Yönetici Girişi:
+[Admin kullanıcılarını kurucu panelindtan oluştur]
+
+=== ADRESLER ===
+
+Lokal Network:  http://192.168.1.22:3000
+Localhost:      http://localhost:3000
+
+=== SORUNLARINI GIDERMEK ===
+
+❌ "Bağlantıya ulaşılamıyor" hatası:
+   - Wi-Fi ağı aynı mı?
+   - Firewall port 3000'i blokluyor mu?
+   -> Çözüm: PC'de Windows Defender Firewall Rule ekle
+
+❌ "Giriş başarısız" hatası:
+   - Kullanıcı adı doğru yazılmış mı?
+   - Sekmesini (Kurucu Girişi) doğru seçtin mi?
+   - Browser console'da (F12) hata mesajını oku
+
+❌ "Sayfa yükleme kesin" sorunu:
+   - Tarayıcı cache'ini temizle
+   - Cookie'leri sil
+   - İncognito modda dene
+
+=== SUNUCUYU KAPATMA ===
+
+Terminal'de Ctrl+C basın
